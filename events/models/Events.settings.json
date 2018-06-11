@@ -1,0 +1,63 @@
+{
+  "connection": "default",
+  "collectionName": "events",
+  "info": {
+    "name": "events",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "StartDate": {
+      "type": "date"
+    },
+    "EndDate": {
+      "type": "date"
+    },
+    "ID": {
+      "type": "integer"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Images": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
+    "SpecialInstructions": {
+      "type": "text"
+    },
+    "ShortDescription": {
+      "type": "string"
+    },
+    "StartTime": {
+      "type": "date"
+    },
+    "EndTime": {
+      "type": "date"
+    },
+    "OrganizerName": {
+      "type": "string"
+    },
+    "OrganizerPhone": {
+      "type": "string"
+    },
+    "EventAddress": {
+      "type": "text"
+    },
+    "OrganizerEmail": {
+      "type": "email"
+    },
+    "EventType": {
+      "type": "string"
+    },
+    "ImageURL": {
+      "type": "string"
+    }
+  }
+}
